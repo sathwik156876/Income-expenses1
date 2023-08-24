@@ -2,6 +2,7 @@
   "name": "task-manager-app",
   "version": "0.1.0",
   "private": true,
+  "proxy":"https://income-expenses1.onrender.com",
   "dependencies": {
     "@headlessui/react": "^1.7.0",
     "@heroicons/react": "^2.0.10",
