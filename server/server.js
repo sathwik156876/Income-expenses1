@@ -11,7 +11,9 @@ const app = express();
 //middlewares
 app.use(express.json()); //pass incoming data
 //corse middleware
-app.use(cors());
+app.use(cors({
+  origin:["http://localhost:8080","https://income-expenses1.onrender.com"],
+}));
 
 app.get("/", (req, res) => {
   res.json({
